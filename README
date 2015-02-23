@@ -1,0 +1,17 @@
+Birding checklist enhancer
+
+Create a checklist for bird identification is Montana.
+
+- This script produces a CSV file (a spreadsheet)
+- Uses the PDF checklist produced by http://fwp.mt.gov/ as a starting point
+- Data from the PDF was copy-n-pasted into Montana_bird_checklist_raw_data.csv
+- process_it.rb then runs and creates Montana_bird_checklist.csv
+- it does this by looking the birds up on allaboutbirds.com and doing some scraping there
+- the resulting CSV can then be imported into Excel or Google Docs for further refinments into a nice spreadsheet
+
+- not a good example of clean code, just "get it done" scripting.
+
+To use
+------
+- bundle install
+- bundle exec ruby process_it.rb
