@@ -1,7 +1,7 @@
 common_name,breeding_code,winter_code
 Greater White-fronted Goose,t,w
 Snow Goose,t,w
-Ross’s Goose,t,w
+Ross's Goose,t,w
 Cackling Goose,t,W
 Canada Goose,B,W
 Brant,t,
@@ -33,7 +33,7 @@ Black Scoter,t,w
 Long-tailed Duck,t,W
 Bufflehead,B,W
 Common Goldeneye,B,W
-Barrow’s Goldeneye,B,W
+Barrow's Goldeneye,B,W
 Hooded Merganser,B,W
 Common Merganser,B,W
 Red-breasted Merganser,t,W
@@ -59,7 +59,7 @@ Horned Grebe,B,W
 Red-necked Grebe,B,W
 Eared Grebe,B,W
 Western Grebe,B,W
-Clark’s Grebe,B,
+Clark's Grebe,B,
 Manx Shearwater,t,
 Wood Stork,t,
 Double-crested Cormorant,B,w
@@ -83,11 +83,11 @@ Mississippi Kite,t,
 Bald Eagle,B,W
 Northern Harrier,B,W
 Sharp-shinned Hawk,B,W
-Cooper’s Hawk,B,W
+Cooper's Hawk,B,W
 Northern Goshawk,B,W
 Red-shouldered Hawk,t,
 Broad-winged Hawk,t,
-Swainson’s Hawk,B,w
+Swainson's Hawk,B,w
 Red-tailed Hawk,B,W
 Ferruginous Hawk,B,W
 Rough-legged Hawk,t,W
@@ -132,7 +132,7 @@ Semipalmated Sandpiper,t,
 Western Sandpiper,t,
 Least Sandpiper,t,
 White-rumped Sandpiper,t,
-Baird’s Sandpiper,t,
+Baird's Sandpiper,t,
 Pectoral Sandpiper,t,
 Sharp-tailed Sandpiper,t,
 Dunlin,t,W
@@ -141,23 +141,23 @@ Stilt Sandpiper,t,
 Buff-breasted Sandpiper,t,
 Short-billed Dowitcher,t,
 Long-billed Dowitcher,t,
-Wilson’s Snipe,B,W
+Wilson's Snipe,B,W
 American Woodcock,t,w
-Wilson’s Phalarope,B,
+Wilson's Phalarope,B,
 Red-necked Phalarope,t,
 Red Phalarope,t,
 Black-legged Kittiwake,t,w
-Sabine’s Gull,t,
-Bonaparte’s Gull,t,
+Sabine's Gull,t,
+Bonaparte's Gull,t,
 Little Gull,t,
-Ross’s Gull,t,
+Ross's Gull,t,
 Laughing Gull,t,
-Franklin’s Gull,B,
+Franklin's Gull,B,
 Mew Gull,t,W
 Ring-billed Gull,B,W
 California Gull,B,W
 Herring Gull,B,W
-Thayer’s Gull,t,W
+Thayer's Gull,t,W
 Iceland Gull,t,W
 Lesser Black-backed Gull,t,
 Glaucous-winged Gull,t,W
@@ -168,7 +168,7 @@ Caspian Tern,B,
 Black Tern,B,
 Common Tern,B,
 Arctic Tern,B,
-Forster’s Tern,B,
+Forster's Tern,B,
 Pomarine Jaeger,t,
 Parasitic Jaeger,t,
 Long-tailed Jaeger,t,
@@ -202,20 +202,20 @@ Common Poorwill,B,
 Whip-poor-will sp.,t,
 Black Swift,B,
 Chimney Swift,B,
-Vaux’s Swift,B,
+Vaux's Swift,B,
 White-throated Swift,B,
 Ruby-throated Hummingbird,B,
 Black-chinned Hummingbird,B,
-Anna’s Hummingbird,t,W
-Costa’s Hummingbird,t,
+Anna's Hummingbird,t,W
+Costa's Hummingbird,t,
 Calliope Hummingbird,B,
 Broad-tailed Hummingbird,B,
 Rufous Hummingbird,B,
 Belted Kingfisher,B,W
-Lewis’s Woodpecker,B,W
+Lewis's Woodpecker,B,W
 Red-headed Woodpecker,B,w
 Red-bellied Woodpecker,t,
-Williamson’s Sapsucker,B,
+Williamson's Sapsucker,B,
 Yellow-bellied Sapsucker,t,
 Red-naped Sapsucker,B,w
 Downy Woodpecker,B,W
@@ -232,16 +232,16 @@ Yellow-bellied Flycatcher,t,
 Alder Flycatcher,b,
 Willow Flycatcher,B,
 Least Flycatcher,B,
-Hammond’s Flycatcher,B,
+Hammond's Flycatcher,B,
 Gray Flycatcher,B,
 Dusky Flycatcher,B,
 Cordilleran Flycatcher,B,
 Eastern Phoebe,t,w
-Say’s Phoebe,B,w
+Say's Phoebe,B,w
 Vermilion Flycatcher,,w
 Ash-throated Flycatcher,t,
 Great Crested Flycatcher,t,
-Cassin’s Kingbird,B,
+Cassin's Kingbird,B,
 Western Kingbird,B,w
 Eastern Kingbird,B,
 Scissor-tailed Flycatcher,t,
@@ -250,17 +250,17 @@ Northern Shrike,t,W
 White-eyed Vireo,b,
 Yellow-throated Vireo,b,
 Plumbeous Vireo,B,
-Cassin’s Vireo,B,
+Cassin's Vireo,B,
 Blue-headed Vireo,t,
 Warbling Vireo,B,
 Philadelphia Vireo,t,
 Red-eyed Vireo,B,
 Gray Jay,B,W
 Pinyon Jay,B,W
-Steller’s Jay,B,W
+Steller's Jay,B,W
 Blue Jay,B,W
 Western Scrub-Jay,t,W
-Clark’s Nutcracker,B,W
+Clark's Nutcracker,B,W
 Black-billed Magpie,B,W
 American Crow,B,W
 Common Raven,B,W
@@ -283,7 +283,7 @@ Brown Creeper,B,W
 Rock Wren,B,w
 Canyon Wren,B,W
 Carolina Wren,t,
-Bewick’s Wren,t,W
+Bewick's Wren,t,W
 House Wren,B,w
 Pacific Wren,B,W
 Winter Wren,t,
@@ -296,10 +296,10 @@ Ruby-crowned Kinglet,B,W
 Eastern Bluebird,B,W
 Western Bluebird,B,w
 Mountain Bluebird,B,w
-Townsend’s Solitaire,B,W
+Townsend's Solitaire,B,W
 Veery,B,
 Gray-cheeked Thrush,t,
-Swainson’s Thrush,B,
+Swainson's Thrush,B,
 Hermit Thrush,B,w
 Wood Thrush,t,
 American Robin,B,W
@@ -312,13 +312,13 @@ Curve-billed Thrasher,t,W
 European Starling,B,W
 Siberian Accentor,t,W
 American Pipit,B,W
-Sprague’s Pipit,B,
+Sprague's Pipit,B,
 Bohemian Waxwing,b,W
 Cedar Waxwing,B,W
 Lapland Longspur,t,W
 Chestnut-collared Longspur,B,
-Smith’s Longspur,t,
-McCown’s Longspur,B,
+Smith's Longspur,t,
+McCown's Longspur,B,
 Snow Bunting,t,W
 Ovenbird,B,
 Northern Waterthrush,B,
@@ -330,7 +330,7 @@ Tennessee Warbler,B,
 Orange-crowned Warbler,B,
 Nashville Warbler,B,
 Connecticut Warbler,t,
-MacGillivray’s Warbler,B,
+MacGillivray's Warbler,B,
 Mourning Warbler,t,
 Kentucky Warbler,t,
 Common Yellowthroat,B,w
@@ -351,10 +351,10 @@ Yellow-rumped Warbler,B,W
 Yellow-throated Warbler,t,W
 Prairie Warbler,t,
 Black-throated Gray Warbler,B,w
-Townsend’s Warbler,B,
+Townsend's Warbler,B,
 Black-throated Green Warbler,t,
 Canada Warbler,t,
-Wilson’s Warbler,B,
+Wilson's Warbler,B,
 Painted Redstart,t,
 Yellow-breasted Chat,B,
 Green-tailed Towhee,B,W
@@ -363,7 +363,7 @@ Eastern Towhee,t,
 American Tree Sparrow,t,W
 Chipping Sparrow,B,W
 Clay-colored Sparrow,B,
-Brewer’s Sparrow,B,
+Brewer's Sparrow,B,
 Field Sparrow,B,
 Vesper Sparrow,B,w
 Lark Sparrow,B,
@@ -372,15 +372,15 @@ Sage Sparrow,B,
 Lark Bunting,B,
 Savannah Sparrow,B,w
 Grasshopper Sparrow,B,
-Baird’s Sparrow,B,
-Le Conte’s Sparrow,B,w
-Nelson’s Sparrow,B,
+Baird's Sparrow,B,
+Le Conte's Sparrow,B,w
+Nelson's Sparrow,B,
 Fox Sparrow,B,w
 Song Sparrow,B,W
-Lincoln’s Sparrow,B,w
+Lincoln's Sparrow,B,w
 Swamp Sparrow,t,W
 White-throated Sparrow,t,W
-Harris’s Sparrow,t,W
+Harris's Sparrow,t,W
 White-crowned Sparrow,B,W
 Golden-crowned Sparrow,b,w
 Dark-eyed Junco,B,W
@@ -402,20 +402,20 @@ Eastern Meadowlark,t,
 Western Meadowlark,B,W
 Yellow-headed Blackbird,B,W
 Rusty Blackbird,t,W
-Brewer’s Blackbird,B,W
+Brewer's Blackbird,B,W
 Common Grackle,B,W
 Great-tailed Grackle,b,
 Brown-headed Cowbird,B,w
 Orchard Oriole,B,
 Hooded Oriole,t,
-Bullock’s Oriole,B,w
+Bullock's Oriole,B,w
 Baltimore Oriole,B,
 Brambling,t,W
 Gray-crowned Rosy-Finch,B,W
 Black Rosy-Finch,B,W
 Pine Grosbeak,B,W
 Purple Finch,t,W
-Cassin’s Finch,B,W
+Cassin's Finch,B,W
 House Finch,B,W
 Red Crossbill,B,W
 White-winged Crossbill,b,W
