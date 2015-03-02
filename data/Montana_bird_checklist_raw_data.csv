@@ -18,12 +18,10 @@ Blue-winged Teal,B,w
 Cinnamon Teal,B,W
 Northern Shoveler,B,W
 Northern Pintail,B,W
-Garganey,t,
 Green-winged Teal,B,W
 Canvasback,B,W
 Redhead,B,W
 Ring-necked Duck,B,W
-Tufted Duck,t,
 Greater Scaup,t,W
 Lesser Scaup,B,W
 Harlequin Duck,B,W
@@ -53,14 +51,12 @@ Wild Turkey,B,W
 Red-throated Loon,t,
 Pacific Loon,t,w
 Common Loon,B,W
-Yellow-billed Loon,t,w
 Pied-billed Grebe,B,W
 Horned Grebe,B,W
 Red-necked Grebe,B,W
 Eared Grebe,B,W
 Western Grebe,B,W
 Clark's Grebe,B,
-Manx Shearwater,t,
 Wood Stork,t,
 Double-crested Cormorant,B,w
 American White Pelican,B,w
@@ -134,9 +130,7 @@ Least Sandpiper,t,
 White-rumped Sandpiper,t,
 Baird's Sandpiper,t,
 Pectoral Sandpiper,t,
-Sharp-tailed Sandpiper,t,
 Dunlin,t,W
-Curlew Sandpiper,t,
 Stilt Sandpiper,t,
 Buff-breasted Sandpiper,t,
 Short-billed Dowitcher,t,
@@ -144,8 +138,6 @@ Long-billed Dowitcher,t,
 Wilson's Snipe,B,W
 American Woodcock,t,w
 Wilson's Phalarope,B,
-Red-necked Phalarope,t,
-Red Phalarope,t,
 Black-legged Kittiwake,t,w
 Sabine's Gull,t,
 Bonaparte's Gull,t,
@@ -169,10 +161,6 @@ Black Tern,B,
 Common Tern,B,
 Arctic Tern,B,
 Forster's Tern,B,
-Pomarine Jaeger,t,
-Parasitic Jaeger,t,
-Long-tailed Jaeger,t,
-Long-billed Murrelet,t,
 Ancient Murrelet,t,w
 Rock Pigeon,B,W
 Band-tailed Pigeon,t,
@@ -199,8 +187,6 @@ Boreal Owl,B,W
 Northern Saw-whet Owl,B,W
 Common Nighthawk,B,
 Common Poorwill,B,
-Whip-poor-will sp.,t,
-Black Swift,B,
 Chimney Swift,B,
 Vaux's Swift,B,
 White-throated Swift,B,
@@ -274,7 +260,7 @@ Cliff Swallow,B,
 Barn Swallow,B,
 Black-capped Chickadee,B,W
 Mountain Chickadee,B,W
-Chestnut-sided Chickadee,B,W
+Chestnut-backed Chickadee,B,W
 Boreal Chickadee,B,W
 Red-breasted Nuthatch,B,W
 White-breasted Nuthatch,B,W
@@ -310,7 +296,6 @@ Sage Thrasher,B,
 Brown Thrasher,B,W
 Curve-billed Thrasher,t,W
 European Starling,B,W
-Siberian Accentor,t,W
 American Pipit,B,W
 Sprague's Pipit,B,
 Bohemian Waxwing,b,W
@@ -410,7 +395,6 @@ Orchard Oriole,B,
 Hooded Oriole,t,
 Bullock's Oriole,B,w
 Baltimore Oriole,B,
-Brambling,t,W
 Gray-crowned Rosy-Finch,B,W
 Black Rosy-Finch,B,W
 Pine Grosbeak,B,W
