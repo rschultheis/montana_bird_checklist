@@ -12,8 +12,8 @@ module BirdChecklist
     # if you want the full raw data, with translated fields, call this
     def get_translated_data
       birds = get_raw_data
-      birds = translate_raw_codes birds, 'breeding_code', BreedingCodeKey
-      birds = translate_raw_codes birds, 'winter_code', WinterCodeKey
+      # birds = translate_raw_codes birds, 'breeding_code', BreedingCodeKey
+      # birds = translate_raw_codes birds, 'winter_code', WinterCodeKey
       # puts "Translated Data:\n#{birds.to_yaml}"
       birds
     end

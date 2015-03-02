@@ -17,6 +17,7 @@ GEM
       interception (>= 0.5)
       pry
     slop (3.6.0)
+    writeexcel (1.0.5)
 
 PLATFORMS
   ruby
@@ -27,3 +28,4 @@ DEPENDENCIES
   nokogiri
   pry
   pry-rescue
+  writeexcel

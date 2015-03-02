@@ -16,6 +16,7 @@ module BirdChecklist
       @aab_html_doc_priv ||= Nokogiri::HTML get_html_page(aab_url)
       @aab_html_doc_priv
     end
+
   end
 end
 

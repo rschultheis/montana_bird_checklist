@@ -35,18 +35,24 @@ module BirdChecklist
     end
 
     def add_similar_species birds
+      # the similar species list comes from allaboutbirds.com
+      # it lists similiar species all over N America with any range overlap
+      # we will trim their list to only species in the checklist already
+      all_listed_species = birds.map{|b| b['slug'] }
       add_field_to_all_birds birds, 'similar_species' do |bird|
         html_doc = bird.aab_html_doc
         next unless html_doc
         similar_species = html_doc.xpath("//div[@id='id_similar_spp']//div[@class='annotations']/h4/a").map{|e| e.inner_text }.uniq
-        similar_species
+        mt_similar_species = similar_species.select{|s| all_listed_species.include?(aab_slug(s)) }
+        mt_similar_species.join(', ')
       end
     end
 
 
+
     private
 
-    # set a field on a bird from a block
+    # set a field on a bird from a bloctk
     def add_field_to_all_birds birds, field_name, &blk
       puts "Setting field '#{field_name}' on all birds"
       birds.each do |bird|
