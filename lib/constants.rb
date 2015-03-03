@@ -13,6 +13,8 @@ module BirdChecklist
     # This was compiled from birdSpeciesFinal-Checklist-for-WEB_small.pdf which is
     RawDataFileName = File.join(DataDir, 'Montana_bird_checklist_raw_data.csv')
     OrderDescriptionsConfig = File.join(DataDir, 'order_descriptions.yml')
+    FamilyDescriptionsConfig = File.join(DataDir, 'family_descriptions.yml')
+
     FullDataOutputCSV = File.join(OutputDir, 'Montana_bird_checklist.csv')
     ExcelOutput = File.join(OutputDir, 'Montana_bird_checklist.xlsx')
 
@@ -33,7 +35,8 @@ module BirdChecklist
   end
 
   module Taxonomies
-    OrderToGroup = YAML.load_file Locations::OrderDescriptionsConfig
+    OrderDescriptions = YAML.load_file Locations::OrderDescriptionsConfig
+    FamilyDescriptions = YAML.load_file Locations::FamilyDescriptionsConfig
   end
 
 end

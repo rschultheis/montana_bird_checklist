@@ -1,5 +1,5 @@
-
 require 'curb'
+require 'nokogiri'
 require 'fileutils'
 
 require_relative 'constants'

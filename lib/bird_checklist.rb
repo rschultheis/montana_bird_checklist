@@ -30,7 +30,7 @@ module BirdChecklist
       sheets = []
       sheets << Sheet.new('All birds', @birds, [['Listing of all birds with some annual presence in Montana']])
 
-      Taxonomies::OrderToGroup.each_pair do |order, description|
+      Taxonomies::OrderDescriptions.each_pair do |order, description|
         sheets << Sheet.new(order, @birds.select{|b| b['order'] == order}, [[description]])
       end
       write_excel_file ExcelOutput, sheets

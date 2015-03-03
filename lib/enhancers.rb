@@ -26,8 +26,9 @@ module BirdChecklist
         species = html_doc.xpath("//div[@id='spp_name']/p[@class='latin']")
         latin_scrape_str = species.inner_text.strip.gsub(/\W+/,' ')
         ignore_this, genus, species, order, family = latin_scrape_str.match(/^(\w+)\s+(\w+)\s+ORDER\s+(\w+)\s+FAMILY\s+(\w+)$/).to_a
-        bird['order_desc'] = OrderToGroup[order]
+        bird['order_desc'] = OrderDescriptions[order.upcase]
         bird['order'] = order
+        bird['family_desc'] = FamilyDescriptions[family.capitalize]
         bird['family'] = family
         bird['genus'] = genus
         bird['species'] = species
