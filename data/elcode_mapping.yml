@@ -1,0 +1,411 @@
+---
+Greater White-fronted Goose: ABNJB03040
+Snow Goose: ABNJB04010
+Ross's Goose: ABNJB04020
+Cackling Goose: ABNJB05050
+Canada Goose: ABNJB05030
+Brant: ABNJB05010
+Mute Swan: ABNJB02040
+Trumpeter Swan: ABNJB02030
+Tundra Swan: ABNJB02010
+Wood Duck: ABNJB09010
+Gadwall: ABNJB10160
+Eurasian Wigeon: ABNJB10170
+American Wigeon: ABNJB10180
+American Black Duck: ABNJB10040
+Mallard: ABNJB10060
+Blue-winged Teal: ABNJB10130
+Cinnamon Teal: ABNJB10140
+Northern Shoveler: ABNJB10150
+Northern Pintail: ABNJB10110
+Green-winged Teal: ABNJB10010
+Canvasback: ABNJB11020
+Redhead: ABNJB11030
+Ring-necked Duck: ABNJB11040
+Greater Scaup: ABNJB11060
+Lesser Scaup: ABNJB11070
+Harlequin Duck: ABNJB15010
+Surf Scoter: ABNJB17020
+White-winged Scoter: ABNJB17030
+Black Scoter: ABNJB17040
+Long-tailed Duck: ABNJB16010
+Bufflehead: ABNJB18030
+Common Goldeneye: ABNJB18010
+Barrow's Goldeneye: ABNJB18020
+Hooded Merganser: ABNJB20010
+Common Merganser: ABNJB21010
+Red-breasted Merganser: ABNJB21020
+Ruddy Duck: ABNJB22010
+Chukar: ABNLC03010
+Gray Partridge: ABNLC01010
+Ring-necked Pheasant: ABNLC07010
+Ruffed Grouse: ABNLC11010
+Greater Sage-Grouse: ABNLC12010
+Spruce Grouse: ABNLC09010
+Willow Ptarmigan: ABNLC10010
+White-tailed Ptarmigan: ABNLC10030
+Dusky Grouse: ABNLC09020
+Sharp-tailed Grouse: ABNLC13030
+Greater Prairie-Chicken: ABNLC13010
+Wild Turkey: ABNLC14010
+Red-throated Loon: ABNBA01010
+Pacific Loon: ABNBA01050
+Common Loon: ABNBA01030
+Pied-billed Grebe: ABNCA02010
+Horned Grebe: ABNCA03010
+Red-necked Grebe: ABNCA03020
+Eared Grebe: ABNCA03030
+Western Grebe: ABNCA04010
+Clark's Grebe: ABNCA04020
+Wood Stork: ABNGF02010
+Double-crested Cormorant: ABNFD01020
+American White Pelican: ABNFC01010
+American Bittern: ABNGA01020
+Least Bittern: ABNGA02010
+Great Blue Heron: ABNGA04010
+Great Egret: ABNGA04040
+Snowy Egret: ABNGA06030
+Little Blue Heron: ABNGA06040
+Cattle Egret: ABNGA07010
+Green Heron: ABNGA08010
+Black-crowned Night-Heron: ABNGA11010
+Yellow-crowned Night-Heron: ABNGA13010
+Glossy Ibis: ABNGE02010
+White-faced Ibis: ABNGE02020
+Turkey Vulture: ABNKA02010
+Osprey: ABNKC01010
+White-tailed Kite: ABNKC06010
+Mississippi Kite: ABNKC09010
+Bald Eagle: ABNKC10010
+Northern Harrier: ABNKC11010
+Sharp-shinned Hawk: ABNKC12020
+Cooper's Hawk: ABNKC12040
+Northern Goshawk: ABNKC12060
+Red-shouldered Hawk: ABNKC19030
+Broad-winged Hawk: ABNKC19050
+Swainson's Hawk: ABNKC19070
+Red-tailed Hawk: ABNKC19110
+Ferruginous Hawk: ABNKC19120
+Rough-legged Hawk: ABNKC19130
+Golden Eagle: ABNKC22010
+Crested Caracara: ABNKD02020
+American Kestrel: ABNKD06020
+Merlin: ABNKD06030
+Gyrfalcon: ABNKD06080
+Peregrine Falcon: ABNKD06070
+Prairie Falcon: ABNKD06090
+Yellow Rail: ABNME01010
+Virginia Rail: ABNME05030
+Sora: ABNME08020
+Common Gallinule: ABNME13010
+American Coot: ABNME14020
+Sandhill Crane: ABNMK01010
+Whooping Crane: ABNMK01030
+Black-bellied Plover: ABNNB02010
+American Golden-Plover: ABNNB02030
+Snowy Plover: ABNNB03031
+Semipalmated Plover: ABNNB03060
+Piping Plover: ABNNB03070
+Killdeer: ABNNB03090
+Mountain Plover: ABNNB03100
+Black-necked Stilt: ABNND01010
+American Avocet: ABNND02010
+Spotted Sandpiper: ABNNF04020
+Solitary Sandpiper: ABNNF01070
+Greater Yellowlegs: ABNNF01020
+Willet: ABNNF02010
+Lesser Yellowlegs: ABNNF01030
+Upland Sandpiper: ABNNF06010
+Whimbrel: ABNNF07020
+Long-billed Curlew: ABNNF07070
+Hudsonian Godwit: ABNNF08020
+Marbled Godwit: ABNNF08040
+Ruddy Turnstone: ABNNF09010
+Black Turnstone: ABNNF09020
+Red Knot: ABNNF11020
+Sanderling: ABNNF11030
+Semipalmated Sandpiper: ABNNF11040
+Western Sandpiper: ABNNF11050
+Least Sandpiper: ABNNF11100
+White-rumped Sandpiper: ABNNF11110
+Baird's Sandpiper: ABNNF11120
+Pectoral Sandpiper: ABNNF11130
+Dunlin: ABNNF11170
+Stilt Sandpiper: ABNNF11190
+Buff-breasted Sandpiper: ABNNF14010
+Short-billed Dowitcher: ABNNF16010
+Long-billed Dowitcher: ABNNF16020
+Wilson's Snipe: ABNNF18030
+American Woodcock: ABNNF19020
+Wilson's Phalarope: ABNNF20010
+Black-legged Kittiwake: ABNNM04010
+Sabine's Gull: ABNNM06010
+Bonaparte's Gull: ABNNM03050
+Little Gull: ABNNM03030
+Ross's Gull: ABNNM05010
+Laughing Gull: ABNNM03010
+Franklin's Gull: ABNNM03020
+Mew Gull: ABNNM03090
+Ring-billed Gull: ABNNM03100
+California Gull: ABNNM03110
+Herring Gull: ABNNM03120
+Thayer's Gull: ABNNM03130
+Iceland Gull: ABNNM03140
+Lesser Black-backed Gull: ABNNM03150
+Glaucous-winged Gull: ABNNM03190
+Glaucous Gull: ABNNM03200
+Great Black-backed Gull: ABNNM03210
+Least Tern: ABNNM08100
+Caspian Tern: ABNNM08020
+Black Tern: ABNNM10020
+Common Tern: ABNNM08070
+Arctic Tern: ABNNM08080
+Forster's Tern: ABNNM08090
+Ancient Murrelet: ABNNN07030
+Rock Pigeon: ABNPB01010
+Band-tailed Pigeon: ABNPB01080
+Eurasian Collared-Dove: ABNPB02030
+White-winged Dove: ABNPB04010
+Mourning Dove: ABNPB04040
+Inca Dove: ABNPB06010
+Yellow-billed Cuckoo: ABNRB02020
+Black-billed Cuckoo: ABNRB02010
+Barn Owl: ABNSA01010
+Flammulated Owl: ABNSB01020
+Western Screech-Owl: ABNSB01040
+Eastern Screech-Owl: ABNSB01030
+Great Horned Owl: ABNSB05010
+Snowy Owl: ABNSB06010
+Northern Hawk Owl: ABNSB07010
+Northern Pygmy-Owl: ABNSB08010
+Burrowing Owl: ABNSB10010
+Barred Owl: ABNSB12020
+Great Gray Owl: ABNSB12040
+Long-eared Owl: ABNSB13010
+Short-eared Owl: ABNSB13040
+Boreal Owl: ABNSB15010
+Northern Saw-whet Owl: ABNSB15020
+Common Nighthawk: ABNTA02020
+Common Poorwill: ABNTA04010
+Chimney Swift: ABNUA03010
+Vaux's Swift: ABNUA03020
+White-throated Swift: ABNUA06010
+Ruby-throated Hummingbird: ABNUC45010
+Black-chinned Hummingbird: ABNUC45020
+Anna's Hummingbird: ABNUC47010
+Costa's Hummingbird: ABNUC47020
+Calliope Hummingbird: ABNUC48010
+Broad-tailed Hummingbird: ABNUC51010
+Rufous Hummingbird: ABNUC51020
+Belted Kingfisher: ABNXD01020
+Lewis's Woodpecker: ABNYF04010
+Red-headed Woodpecker: ABNYF04040
+Red-bellied Woodpecker: ABNYF04170
+Williamson's Sapsucker: ABNYF05030
+Yellow-bellied Sapsucker: ABNYF05010
+Red-naped Sapsucker: ABNYF05040
+Downy Woodpecker: ABNYF07030
+Hairy Woodpecker: ABNYF07040
+White-headed Woodpecker: ABNYF07070
+American Three-toed Woodpecker: ABNYF07110
+Black-backed Woodpecker: ABNYF07090
+Northern Flicker: ABNYF10020
+Pileated Woodpecker: ABNYF12020
+Olive-sided Flycatcher: ABPAE32010
+Western Wood-Pewee: ABPAE32050
+Eastern Wood-Pewee: ABPAE32060
+Yellow-bellied Flycatcher: ABPAE33010
+Alder Flycatcher: ABPAE33030
+Willow Flycatcher: ABPAE33040
+Least Flycatcher: ABPAE33070
+Hammond's Flycatcher: ABPAE33080
+Gray Flycatcher: ABPAE33100
+Dusky Flycatcher: ABPAE33090
+Cordilleran Flycatcher: ABPAE33160
+Eastern Phoebe: ABPAE35020
+Say's Phoebe: ABPAE35030
+Vermilion Flycatcher: ABPAE36010
+Ash-throated Flycatcher: ABPAE43050
+Great Crested Flycatcher: ABPAE43070
+Cassin's Kingbird: ABPAE52030
+Western Kingbird: ABPAE52050
+Eastern Kingbird: ABPAE52060
+Scissor-tailed Flycatcher: ABPAE52100
+Loggerhead Shrike: ABPBR01030
+Northern Shrike: ABPBR01020
+White-eyed Vireo: ABPBW01020
+Yellow-throated Vireo: ABPBW01170
+Plumbeous Vireo: ABPBW01280
+Cassin's Vireo: ABPBW01290
+Blue-headed Vireo: ABPBW01160
+Warbling Vireo: ABPBW01210
+Philadelphia Vireo: ABPBW01230
+Red-eyed Vireo: ABPBW01240
+Gray Jay: ABPAV01010
+Pinyon Jay: ABPAV07010
+Steller's Jay: ABPAV02010
+Blue Jay: ABPAV02020
+Western Scrub-Jay: ABPAV06040
+Clark's Nutcracker: ABPAV08010
+Black-billed Magpie: ABPAV09010
+American Crow: ABPAV10010
+Common Raven: ABPAV10110
+Horned Lark: ABPAT02010
+Purple Martin: ABPAU01010
+Tree Swallow: ABPAU03010
+Violet-green Swallow: ABPAU03040
+Northern Rough-winged Swallow: ABPAU07010
+Bank Swallow: ABPAU08010
+Cliff Swallow: ABPAU09010
+Barn Swallow: ABPAU09030
+Black-capped Chickadee: ABPAW01010
+Mountain Chickadee: ABPAW01040
+Chestnut-backed Chickadee: ABPAW01070
+Boreal Chickadee: ABPAW01060
+Red-breasted Nuthatch: ABPAZ01010
+White-breasted Nuthatch: ABPAZ01020
+Pygmy Nuthatch: ABPAZ01030
+Brown Creeper: ABPBA01010
+Rock Wren: ABPBG03010
+Canyon Wren: ABPBG04010
+Carolina Wren: ABPBG06130
+Bewick's Wren: ABPBG07010
+House Wren: ABPBG09010
+Pacific Wren: ABPBG09090
+Winter Wren: ABPBG09050
+Sedge Wren: ABPBG10010
+Marsh Wren: ABPBG10020
+Blue-gray Gnatcatcher: ABPBJ08010
+American Dipper: ABPBH01010
+Golden-crowned Kinglet: ABPBJ05010
+Ruby-crowned Kinglet: ABPBJ05020
+Eastern Bluebird: ABPBJ15010
+Western Bluebird: ABPBJ15020
+Mountain Bluebird: ABPBJ15030
+Townsend's Solitaire: ABPBJ16010
+Veery: ABPBJ18080
+Gray-cheeked Thrush: ABPBJ18090
+Swainson's Thrush: ABPBJ18100
+Hermit Thrush: ABPBJ18110
+Wood Thrush: ABPBJ19010
+American Robin: ABPBJ20170
+Varied Thrush: ABPBJ22010
+Gray Catbird: ABPBK01010
+Northern Mockingbird: ABPBK03010
+Sage Thrasher: ABPBK04010
+Brown Thrasher: ABPBK06010
+Curve-billed Thrasher: ABPBK06070
+European Starling: ABPBT01010
+American Pipit: ABPBM02050
+Sprague's Pipit: ABPBM02060
+Bohemian Waxwing: ABPBN01010
+Cedar Waxwing: ABPBN01020
+Lapland Longspur: ABPBXA6020
+Chestnut-collared Longspur: ABPBXA6040
+Smith's Longspur: ABPBXA6030
+McCown's Longspur: ABPBXA6010
+Snow Bunting: ABPBXA8010
+Ovenbird: ABPBX10010
+Northern Waterthrush: ABPBX10020
+Golden-winged Warbler: ABPBX01030
+Blue-winged Warbler: ABPBX01020
+Black-and-White Warbler: ABPBX05010
+Prothonotary Warbler: ABPBX07010
+Tennessee Warbler: ABPBX01040
+Orange-crowned Warbler: ABPBX01050
+Nashville Warbler: ABPBX01060
+Connecticut Warbler: ABPBX11020
+MacGillivray's Warbler: ABPBX11040
+Mourning Warbler: ABPBX11030
+Kentucky Warbler: ABPBX11010
+Common Yellowthroat: ABPBX12010
+Hooded Warbler: ABPBX16010
+American Redstart: ABPBX06010
+Cape May Warbler: ABPBX03040
+Northern Parula: ABPBX02010
+Magnolia Warbler: ABPBX03030
+Bay-breasted Warbler: ABPBX03220
+Blackburnian Warbler: ABPBX03120
+Yellow Warbler: ABPBX03010
+Chestnut-sided Warbler: ABPBX03020
+Blackpoll Warbler: ABPBX03230
+Black-throated Blue Warbler: ABPBX03050
+Palm Warbler: ABPBX03210
+Pine Warbler: ABPBX03170
+Yellow-rumped Warbler: ABPBX03060
+Yellow-throated Warbler: ABPBX03130
+Prairie Warbler: ABPBX03190
+Black-throated Gray Warbler: ABPBX03070
+Townsend's Warbler: ABPBX03080
+Black-throated Green Warbler: ABPBX03100
+Canada Warbler: ABPBX16030
+Wilson's Warbler: ABPBX16020
+Painted Redstart: ABPBX19010
+Yellow-breasted Chat: ABPBX24010
+Green-tailed Towhee: ABPBX74010
+Spotted Towhee: ABPBX74080
+Eastern Towhee: ABPBX74030
+American Tree Sparrow: ABPBX94010
+Chipping Sparrow: ABPBX94020
+Clay-colored Sparrow: ABPBX94030
+Brewer's Sparrow: ABPBX94040
+Field Sparrow: ABPBX94050
+Vesper Sparrow: ABPBX95010
+Lark Sparrow: ABPBX96010
+Black-throated Sparrow: ABPBX97010
+Lark Bunting: ABPBX98010
+Savannah Sparrow: ABPBX99010
+Grasshopper Sparrow: ABPBXA0020
+Baird's Sparrow: ABPBXA0010
+Le Conte's Sparrow: ABPBXA0040
+Nelson's Sparrow: ABPBXA0070
+Fox Sparrow: ABPBXA2010
+Song Sparrow: ABPBXA3010
+Lincoln's Sparrow: ABPBXA3020
+Swamp Sparrow: ABPBXA3030
+White-throated Sparrow: ABPBXA4020
+Harris's Sparrow: ABPBXA4050
+White-crowned Sparrow: ABPBXA4040
+Golden-crowned Sparrow: ABPBXA4030
+Dark-eyed Junco: ABPBXA5020
+Summer Tanager: ABPBX45030
+Scarlet Tanager: ABPBX45040
+Western Tanager: ABPBX45050
+Northern Cardinal: ABPBX60010
+Pyrrhuloxia: ABPBX60020
+Rose-breasted Grosbeak: ABPBX61030
+Black-headed Grosbeak: ABPBX61040
+Blue Grosbeak: ABPBX64010
+Lazuli Bunting: ABPBX64020
+Indigo Bunting: ABPBX64030
+Painted Bunting: ABPBX64060
+Dickcissel: ABPBX65010
+Bobolink: ABPBXA9010
+Red-winged Blackbird: ABPBXB0010
+Eastern Meadowlark: ABPBXB2020
+Western Meadowlark: ABPBXB2030
+Yellow-headed Blackbird: ABPBXB3010
+Rusty Blackbird: ABPBXB5010
+Brewer's Blackbird: ABPBXB5020
+Common Grackle: ABPBXB6070
+Great-tailed Grackle: ABPBXB6050
+Brown-headed Cowbird: ABPBXB7030
+Orchard Oriole: ABPBXB9070
+Hooded Oriole: ABPBXB9080
+Bullock's Oriole: ABPBXB9220
+Baltimore Oriole: ABPBXB9190
+Gray-crowned Rosy-Finch: ABPBY02030
+Black Rosy-Finch: ABPBY02010
+Pine Grosbeak: ABPBY03010
+Purple Finch: ABPBY04020
+Cassin's Finch: ABPBY04030
+House Finch: ABPBY04040
+Red Crossbill: ABPBY05010
+White-winged Crossbill: ABPBY05020
+Common Redpoll: ABPBY06010
+Hoary Redpoll: ABPBY06020
+Pine Siskin: ABPBY06030
+Lesser Goldfinch: ABPBY06090
+American Goldfinch: ABPBY06110
+Evening Grosbeak: ABPBY09020
+House Sparrow: ABPBZ01010

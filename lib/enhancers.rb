@@ -5,6 +5,8 @@ module BirdChecklist
   module Enhancers
 
     include Scraper
+    include Taxonomies
+
     def add_slug birds
       add_field_to_all_birds birds, 'slug' do |bird|
         aab_slug bird['common_name']
@@ -16,7 +18,23 @@ module BirdChecklist
       birds.each { |bird| bird.aab_url }
     end
 
-    include Taxonomies
+    def add_elcode birds
+      add_field_to_all_birds birds, 'elcode' do |bird|
+        # this data was scraped one time by a util dir script
+        CommonNameToElCode[bird['common_name']]
+      end
+    end
+
+    def add_mt_field_guide_url birds
+      add_field_to_all_birds birds, 'field_guide_url' do |bird|
+        if bird['elcode']
+          "http://fieldguide.mt.gov/speciesDetail.aspx?elcode=#{bird['elcode']}"
+        else
+          ''
+        end
+      end
+    end
+
     def add_latin_names birds
       puts "Setting latin name fields on all birds"
       birds.each do |bird|

@@ -19,6 +19,8 @@ module BirdChecklist
     def enhance
       add_slug @birds
       add_aab_url @birds
+      add_elcode @birds
+      add_mt_field_guide_url @birds
       add_latin_names @birds
       add_similar_species @birds
       self
