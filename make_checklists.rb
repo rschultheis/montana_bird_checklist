@@ -1,3 +1,3 @@
 require_relative 'lib/bird_checklist'
 
-BirdChecklist::ChecklistMaker.new.go
+BirdChecklist::MtChecklistMaker.new.go

@@ -2,38 +2,45 @@ require_relative 'constants'
 require_relative 'csv_utils'
 require_relative 'excel_utils'
 require_relative 'enhancers'
+require_relative 'checklist'
 require 'yaml'
 
 module BirdChecklist
-  class ChecklistMaker
+  class MtChecklistMaker
     include CsvUtils
     include ExcelUtils
     include Enhancers
+    include Locations
+    include RawDataKeys
 
     def initialize
       #load list birds out of the raw CSV
-      @birds = get_translated_data
+      birds = get_raw_data RawDataFileName
+      @all = Checklist.new birds
       self
     end
 
     def enhance
-      add_slug @birds
-      add_aab_url @birds
-      add_elcode @birds
-      add_mt_field_guide_url @birds
-      add_latin_names @birds
-      add_similar_species @birds
+      @all.translate_field_on_all_birds 'winter_code', WinterCodeKey
+      @all.translate_field_on_all_birds 'breeding_code', BreedingCodeKey
+      add_slug @all
+      add_aab_url @all
+      add_elcode @all
+      add_mt_field_guide_url @all
+      add_latin_names @all
+      add_similar_species @all
+      check_if_accidental_species @all
       self
     end
 
     def output
-      write_all_birds_csv @birds
+      write_birds_csv @all, FullDataOutputCSV
 
       sheets = []
-      sheets << Sheet.new('All birds', @birds, [['Listing of all birds with some annual presence in Montana']])
+      sheets << Sheet.new('All birds', @all, [['Listing of all birds with some annual presence in Montana']])
 
       Taxonomies::OrderDescriptions.each_pair do |order, description|
-        sheets << Sheet.new(order, @birds.select{|b| b['order'] == order}, [[description]])
+        sheets << Sheet.new(order, @all.select{|b| b['order'] == order}, [[description]])
       end
       write_excel_file ExcelOutput, sheets
       self

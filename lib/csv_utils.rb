@@ -5,24 +5,20 @@ require 'csv'
 
 module BirdChecklist
   module CsvUtils
-
-    include Locations
     include RawDataKeys
 
     # if you want the full raw data, with translated fields, call this
-    def get_translated_data
-      birds = get_raw_data
-      # birds = translate_raw_codes birds, 'breeding_code', BreedingCodeKey
-      # birds = translate_raw_codes birds, 'winter_code', WinterCodeKey
+    def get_translated_data filename
+      birds = get_raw_data filename
+      birds = translate_raw_codes birds, 'breeding_code', BreedingCodeKey
+      birds = translate_raw_codes birds, 'winter_code', WinterCodeKey
       # puts "Translated Data:\n#{birds.to_yaml}"
       birds
     end
 
-    def write_all_birds_csv birds
-      filename = FullDataOutputCSV
+    def write_birds_csv birds, filename
       rows = birds
-
-      puts "Writing all birds to: #{filename}"
+      puts "Writing #{rows.length} birds to csv: #{filename}"
       CSV.open(filename, 'w') do |csv|
         headers = rows[0].keys
         csv << headers
@@ -34,9 +30,9 @@ module BirdChecklist
 
     private
 
-    def get_raw_data
-      puts "Reading #{RawDataFileName}"
-      raw_data = CSV.read RawDataFileName
+    def get_raw_data filename
+      puts "Reading csv: #{filename}"
+      raw_data = CSV.read filename
       headers = raw_data.shift
       raw_data.map{|a| Bird[ headers.zip(a) ]}
     end
@@ -61,10 +57,11 @@ end
 # testing...
 if __FILE__==$0
   include BirdChecklist::CsvUtils
+  include BirdChecklist::Locations
   require 'yaml'
-  data = get_translated_data
+  data = get_raw_data RawDataFileName
   bird = data.find{|b| b['common_name'] == "Clark's Nutcracker" }
   puts bird.aab_html_doc
 
-  write_all_birds_csv data
+  write_birds_csv data, 'output/test.csv'
 end

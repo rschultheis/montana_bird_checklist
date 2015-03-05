@@ -8,6 +8,7 @@ module BirdChecklist
     include Taxonomies
 
     def add_slug birds
+      puts "Setting slug field on all birds"
       add_field_to_all_birds birds, 'slug' do |bird|
         aab_slug bird['common_name']
       end
@@ -19,20 +20,13 @@ module BirdChecklist
     end
 
     def add_elcode birds
-      add_field_to_all_birds birds, 'elcode' do |bird|
-        # this data was scraped one time by a util dir script
-        CommonNameToElCode[bird['common_name']]
-      end
+      puts "Setting elcode field on all birds"
+      birds.each { |bird| bird.elcode }
     end
 
     def add_mt_field_guide_url birds
-      add_field_to_all_birds birds, 'field_guide_url' do |bird|
-        if bird['elcode']
-          "http://fieldguide.mt.gov/speciesDetail.aspx?elcode=#{bird['elcode']}"
-        else
-          ''
-        end
-      end
+      puts "Setting field guide url on all birds"
+      birds.each { |bird| bird.field_guide_url }
     end
 
     def add_latin_names birds
@@ -67,6 +61,18 @@ module BirdChecklist
       end
     end
 
+    def check_if_accidental_species birds
+      add_field_to_all_birds birds, 'accidental' do |bird|
+        html_doc = bird.field_guide_html_doc
+        next unless html_doc
+        matches = html_doc.xpath("//a[ text() = 'Accidental Species']")
+        if not matches.empty?
+          'a'
+        else
+          ''
+        end
+      end
+    end
 
 
     private
