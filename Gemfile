@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'curb'
 gem 'nokogiri'
 gem 'writeexcel'
+gem 'prawn'
 
 #debugging
 gem 'pry'
