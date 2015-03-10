@@ -11,6 +11,14 @@ module BirdChecklist
     include Scraper
     include Taxonomies
 
+    def winter?
+      self['winter_verified'] == 'X'
+    end
+
+    def winter_possible?
+      self['winter_verified'] == 'X' || self['winter_unverified'] == 'X'
+    end
+
     def aab_url
       self['aab_url'] ||= make_aab_url self['common_name']
       self['aab_url']

@@ -20,13 +20,16 @@ module BirdChecklist
     ExcelOutput = File.join(OutputDir, 'Montana_bird_checklist.xlsx')
 
     HtmlPageCacheDir = File.join(ProjDir, 'html_page_cache')
+
+    ImageDir = File.join(ProjDir, 'images')
+
   end
 
   # this is used to translate the raw data into boolean fields that are easier to work with
   module RawDataKeys
     WinterCodeKey = {
       'W' => 'winter_verified',
-      'w' => 'winter_present',
+      'w' => 'winter_unverified',
     }
     BreedingCodeKey = {
       'B' => 'breeding_verified',

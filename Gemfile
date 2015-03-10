@@ -4,6 +4,7 @@ gem 'curb'
 gem 'nokogiri'
 gem 'writeexcel'
 gem 'prawn'
+gem 'google_search'
 
 #debugging
 gem 'pry'
