@@ -67,7 +67,7 @@ module BirdChecklist
         next unless html_doc
         matches = html_doc.xpath("//a[ text() = 'Accidental Species']")
         if not matches.empty?
-          'a'
+          'X'
         else
           ''
         end

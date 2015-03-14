@@ -1,10 +1,20 @@
 require 'prawn'
+require_relative 'constants'
 
 module BirdChecklist
   module PdfUtils
+    include BirdChecklist::Locations
 
     HeaderHeight = 48
     BirdHeight = 50
+
+    Icons = {
+      'winter_verified' => 0,
+      'winter_unverified' => 30,
+      'breeding_verified' => 60,
+      'breeding_unverified' => 90,
+      'transient' => 120,
+    }
 
     def write_checklist_to_pdf checklist, filename
 
@@ -27,7 +37,7 @@ module BirdChecklist
             start_new_page
             page += 1
             bounding_box([0,page_height], height: HeaderHeight, width: page_width) do
-              transparent(0.3) { stroke_bounds }
+              # transparent(0.3) { stroke_bounds }
               header_str = if pages > 1
                              "#{group} (#{page}/#{pages})"
                            else
@@ -39,11 +49,25 @@ module BirdChecklist
 
             bird_list_height = page_height - HeaderHeight
             bounding_box([0,bird_list_height], height: bird_list_height, width: page_width) do
-              transparent(0.3) { stroke_bounds }
+              # transparent(0.7) { stroke_bounds }
               birds.each_with_index do |b,i|
                 bounding_box([0,bird_list_height - (i*BirdHeight)], height: BirdHeight, width: page_width) do
-                  transparent(0.3) { stroke_bounds }
+                  transparent(0.5) { stroke_bounds }
                   text b['common_name'], size: 14
+                  icons = []
+
+                  bounding_box([10,30], height: 25, width: page_width) do
+                    # transparent(0.3) { stroke_bounds }
+                    Icons.each_pair do |icon, offset|
+                      bounding_box([offset, 25], height: 25, width: 25) do
+                        # transparent(0.12) { stroke_bounds }
+                        if b.send("#{icon}?")
+                          image File.join(IconDir, "#{icon}.png"), position: 0, height: 25
+                        end
+                      end
+                    end
+                  end
+
                 end
               end
             end
@@ -58,7 +82,6 @@ end
 
 # testing...
 if __FILE__==$0
-  require_relative 'constants'
   require_relative 'csv_utils'
   require_relative 'checklist'
   include BirdChecklist::Locations
@@ -66,7 +89,7 @@ if __FILE__==$0
   birds = get_raw_data FullDataOutputCSV
   checklist = BirdChecklist::Checklist.new birds
 
-  winter_checklist = checklist.select{|b| b.winter? }
+  winter_checklist = checklist.select{|b| b.winter_verified? }
 
   include BirdChecklist::PdfUtils
   write_checklist_to_pdf winter_checklist, 'output/test.pdf'

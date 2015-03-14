@@ -21,7 +21,9 @@ module BirdChecklist
 
     HtmlPageCacheDir = File.join(ProjDir, 'html_page_cache')
 
-    ImageDir = File.join(ProjDir, 'images')
+    ImageCacheDir = File.join(ProjDir, 'image_cache')
+
+    IconDir = File.join(ProjDir, 'assets', 'icons')
 
   end
 
