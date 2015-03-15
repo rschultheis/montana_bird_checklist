@@ -42,7 +42,7 @@ module BirdChecklist
               cache_file
             else
               begin
-                %x|wgetx -O #{cache_file} #{url}|
+                %x|wget -O #{cache_file} #{url}|
                 cache_file
               rescue Exception => e
                 puts "ERROR: #{e.to_s}"

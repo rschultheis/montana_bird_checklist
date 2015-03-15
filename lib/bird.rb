@@ -10,6 +10,7 @@ module BirdChecklist
   class Bird < Hash
     include Scraper
     include Taxonomies
+    include Locations
 
     def winter_verified?
       self['winter_verified'] == 'X'
@@ -76,6 +77,10 @@ module BirdChecklist
       else
         nil
       end
+    end
+
+    def observation_chart
+      File.join ObsChartDir, "#{elcode}.png"
     end
 
     # any of the hash keys are also methods

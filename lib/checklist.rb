@@ -1,5 +1,6 @@
 require_relative 'bird'
 require_relative 'csv_utils'
+require_relative 'constants'
 
 
 module BirdChecklist
@@ -8,6 +9,7 @@ module BirdChecklist
   class Checklist
     include CsvUtils
     include Enumerable
+    include Taxonomies
 
     attr_reader :birds
 
@@ -28,6 +30,10 @@ module BirdChecklist
       @birds.each do |bird|
         bird[field_name] = yield bird
       end
+    end
+
+    def major_group
+
     end
 
     #turn one coded field into a clearer set of other fields
