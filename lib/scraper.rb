@@ -36,6 +36,22 @@ module BirdChecklist
       "http://www.allaboutbirds.org/guide/#{aab_slug(bird_common_name)}/id"
     end
 
+    def get_web_image url, use_cache=true
+      cache_file = File.join image_cache_dir, url.gsub(/\W+/,'_').sub(/_([^_]+)$/, '.\1')
+      img = if use_cache and File.exist? cache_file
+              cache_file
+            else
+              begin
+                %x|wgetx -O #{cache_file} #{url}|
+                cache_file
+              rescue Exception => e
+                puts "ERROR: #{e.to_s}"
+                nil
+              end
+            end
+
+    end
+
     private
 
     def html_cache_dir
@@ -45,6 +61,15 @@ module BirdChecklist
                          end
       @html_cache_dir_made
     end
+
+    def image_cache_dir
+      @image_cache_dir_made ||= begin
+                           FileUtils.mkdir_p ImageCacheDir
+                           ImageCacheDir
+                         end
+      @image_cache_dir_made
+    end
+
 
   end
 end

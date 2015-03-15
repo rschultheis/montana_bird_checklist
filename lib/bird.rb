@@ -70,11 +70,35 @@ module BirdChecklist
       @fg_html_doc_priv
     end
 
+    def monthly_observations_chart_url
+      if self['elcode']
+        "http://fieldguide.mt.gov/RangeMaps/ObsChart_#{self.elcode}.png"
+      else
+        nil
+      end
+    end
+
     # any of the hash keys are also methods
     def method_missing(m)
       key = m.to_s
       return self[key] if self.has_key? key
       super
+    end
+
+    def major_group
+      self['major_group'] ||= begin
+        family = self.family
+        MajorGroupings.select{|k,v| v.include? family }.keys.first
+      end
+      self['major_group']
+    end
+
+    def sort_key
+      # we birds sorted in major groupings first, and by family within that
+      # the sort should match what is defined in the data yaml file MajorGroupingConfig
+      group_idx = MajorGroupings.keys.index{|g| g == major_group }
+      group_mem_idx = MajorGroupings[major_group].index{|f| f == family }
+      "#{"%2s" % group_idx}:#{"%2s" % group_mem_idx}:#{"%-20s" % self.family}.#{self.genus}.#{self.species}"
     end
   end
 end

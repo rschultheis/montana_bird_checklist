@@ -38,9 +38,10 @@ module BirdChecklist
         species = html_doc.xpath("//div[@id='spp_name']/p[@class='latin']")
         latin_scrape_str = species.inner_text.strip.gsub(/\W+/,' ')
         ignore_this, genus, species, order, family = latin_scrape_str.match(/^(\w+)\s+(\w+)\s+ORDER\s+(\w+)\s+FAMILY\s+(\w+)$/).to_a
-        bird['order_desc'] = OrderDescriptions[order.upcase]
+        genus, species, order, family = genus.capitalize, species.capitalize, order.capitalize, family.capitalize
+        bird['order_desc'] = OrderDescriptions[order]
         bird['order'] = order
-        bird['family_desc'] = FamilyDescriptions[family.capitalize]
+        bird['family_desc'] = FamilyDescriptions[family]
         bird['family'] = family
         bird['genus'] = genus
         bird['species'] = species
@@ -74,6 +75,21 @@ module BirdChecklist
       end
     end
 
+    def add_number_of_observations birds
+      add_field_to_all_birds birds, 'num_observations' do |bird|
+        html_doc = bird.field_guide_html_doc
+        next unless html_doc
+        txt = html_doc.xpath("//b[ text() = 'Number of Observations:' ]")[0].parent.inner_text
+        txt.match(/Number of Observations:\s+(\d+)/)[1].to_i
+      end
+    end
+
+    def sort_birds birds
+      puts "Sorting birds"
+      birds.sort! do |bird_a, bird_b|
+        bird_a.sort_key <=> bird_b.sort_key
+      end
+    end
 
     private
 

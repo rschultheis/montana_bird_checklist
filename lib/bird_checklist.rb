@@ -29,7 +29,9 @@ module BirdChecklist
       add_mt_field_guide_url @all
       add_latin_names @all
       add_similar_species @all
+      add_number_of_observations @all
       check_if_accidental_species @all
+      sort_birds @all
       self
     end
 

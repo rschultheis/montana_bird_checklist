@@ -1,7 +1,5 @@
 ---
 Anatidae: Swans / Geese / Ducks
-Odontophoridae: Quails
-Phasianidae: Upland Game Birds
 Gaviidae: Loons
 Podicipedidae: Grebes
 Ciconiidae: Storks
@@ -9,40 +7,41 @@ Phalacrocoracidae: Cormorants
 Ardeidae: Bitterns / Egrets / Herons / Night-Herons
 Threskiornithidae: Ibises
 Pelecanidae: Pelicans
-Accipitridae: Hawks / Kites / Eagles
-Pandionidae: Osprey
-Cathartidae: Vultures
-Falconidae: Falcons
+Recurvirostridae: Avocets
 Gruidae: Cranes
 Rallidae: Rails
-Recurvirostridae: Avocets
 Laridae: Gulls / Terns
 Stercorariidae: Jaegers
 Alcidae: Murrelets
 Charadriidae: Plovers
 Scolopacidae: Sandpipers
-Columbidae: Pigeon / Doves
-Cuculidae: Cuckoos
+Alcedinidae: Kingfishers
+Accipitridae: Hawks / Kites / Eagles
+Pandionidae: Osprey
+Cathartidae: Vultures
+Falconidae: Falcons
 Tytonidae: Barn Owl
 Strigidae: Owls
 Caprimulgidae: Nighthawks
 Trochilidae: Hummingbirds
 Apodidae: Swifts
-Alcedinidae: Kingfishers
+Odontophoridae: Quails
+Phasianidae: Upland Game Birds
 Picidae: Woodpeckers
-Prunellidae: Accentors
+Corvidae: Jays / Crows / Magpies
+Columbidae: Pigeon / Doves
 Icteridae: Blackbirds
-Paridae: Chickadees
 Certhiidae: Creepers
+Sittidae: Nuthatches
 Cinclidae: Dippers
+Cuculidae: Cuckoos
+Paridae: Chickadees
 Fringillidae: Finches
 Tyrannidae: Flycatchers
 Polioptilidae: Gnatcatchers
-Corvidae: Jays / Crows / Magpies
 Regulidae: Kinglets
 Alaudidae: Larks
 Calcariidae: Longspurs and Snow Buntings
-Sittidae: Nuthatches
 Passeridae: Old World Sparrows
 Motacillidae: Pipits
 Laniidae: Shrikes

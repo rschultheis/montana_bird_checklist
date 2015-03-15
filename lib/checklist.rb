@@ -19,6 +19,10 @@ module BirdChecklist
       @birds.each{ |bird| block.call(bird) }
     end
 
+    def sort! &block
+      @birds.sort!{ |a,b| block.call(a,b) }
+    end
+
     def add_field_to_all_birds birds, field_name, &blk
       puts "Setting field '#{field_name}' on all birds"
       @birds.each do |bird|
