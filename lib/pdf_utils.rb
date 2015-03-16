@@ -6,9 +6,10 @@ module BirdChecklist
     include BirdChecklist::Locations
     include BirdChecklist::Taxonomies
 
-    BlockHeight = 50
+    BlockHeight = 60
     IconHeight = 20
     IconWidth = 25
+    ObservationChartHeight = 40
 
     Icons = {
       'winter_verified' => 0,
@@ -129,12 +130,22 @@ module BirdChecklist
               if bird.send("#{icon_key}?")
                 @pdf.bounding_box([offset * IconWidth, IconHeight], height: IconHeight, width: IconWidth) do
                   if icon_key =~ /unverified/
-                    @pdf.transparent(0.5) { @pdf.image File.join(IconDir, "#{icon_key}.png"), position: 0, height: 20 }
+                    @pdf.transparent(0.5) { @pdf.image File.join(IconDir, "#{icon_key}.png"), position: 0, height: IconHeight }
                   else
-                    @pdf.image File.join(IconDir, "#{icon_key}.png"), position: 0, height: 20
+                    @pdf.image File.join(IconDir, "#{icon_key}.png"), position: 0, height: IconHeight
                   end
                 end
               end
+            end
+          end
+
+          #observations by month
+          observation_box_x = icon_box_x + icon_box_width + 5
+          observation_box_width = @pdf.bounds.right - observation_box_x - 10
+          if bird.observation_chart
+            @pdf.bounding_box([observation_box_x, ObservationChartHeight], width: observation_box_width, height: ObservationChartHeight) do
+              # @pdf.stroke_bounds
+              @pdf.image bird.observation_chart, position: 0, height: @pdf.bounds.height, width: @pdf.bounds.width
             end
           end
 
@@ -178,12 +189,19 @@ module BirdChecklist
                    @block_num += 1
                    BlockHeight
                  end
+        if @block_num > @blocks_per_page
+          new_page
+          y = @page_height
+          case type
+          when :rareties
+            @block_num += 2
+          else
+            @block_num += 1
+          end
+        end
         @pdf.bounding_box([x,y], width: width, height: height) do
           # @pdf.transparent(0.1) { @pdf.stroke_bounds }
           yield block
-        end
-        if @block_num > @blocks_per_page
-          new_page
         end
       end
 
