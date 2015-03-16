@@ -21,6 +21,10 @@ module BirdChecklist
       @birds.each{ |bird| block.call(bird) }
     end
 
+    def select &block
+      @birds.select{ |b| block.call(b) }
+    end
+
     def sort! &block
       @birds.sort!{ |a,b| block.call(a,b) }
     end

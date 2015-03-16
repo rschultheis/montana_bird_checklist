@@ -2,3 +2,5 @@ html_page_cache
 *.xlsx#
 output/test.*
 image_cache
+assets/observation_charts
+assets_bkup.tgz
