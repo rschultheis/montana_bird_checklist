@@ -79,8 +79,20 @@ module BirdChecklist
       end
     end
 
+    def monthly_observations_map_url
+      if self['elcode']
+        "http://fieldguide.mt.gov/RangeMaps/GenObsMap_#{self.elcode}.jpg"
+      else
+        nil
+      end
+    end
+
     def observation_chart
       File.join ObsChartDir, "#{elcode}.png"
+    end
+
+    def observation_map
+      File.join ObsMapDir, "#{elcode}.png"
     end
 
     # any of the hash keys are also methods

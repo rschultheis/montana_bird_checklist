@@ -26,6 +26,7 @@ module BirdChecklist
 
     IconDir = File.join(ProjDir, 'assets', 'icons')
     ObsChartDir = File.join(ProjDir, 'assets', 'observation_charts')
+    ObsMapDir = File.join(ProjDir, 'assets', 'observation_maps')
 
   end
 
