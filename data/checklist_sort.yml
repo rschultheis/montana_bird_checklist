@@ -1,0 +1,479 @@
+---
+Water birds:
+  Ducks:
+  - Mallard
+  - Harlequin Duck
+  - American Wigeon
+  - Gadwall
+  - Common Goldeneye
+  - Common Merganser
+  - Northern Shoveler
+  - Lesser Scaup
+  - Northern Pintail
+  - Bufflehead
+  - Blue-winged Teal
+  - Redhead
+  - Green-winged Teal
+  - Ruddy Duck
+  - Canvasback
+  - Ring-necked Duck
+  - Cinnamon Teal
+  - Barrow's Goldeneye
+  - Wood Duck
+  - Hooded Merganser
+  - Greater Scaup
+  - Red-breasted Merganser
+  - Eurasian Wigeon
+  - Long-tailed Duck
+  - Surf Scoter
+  - White-winged Scoter
+  - American Black Duck
+  - Black Scoter
+  - Brant
+  Swans, Geese:
+  - Canada Goose
+  - Trumpeter Swan
+  - Tundra Swan
+  - Snow Goose
+  - Ross's Goose
+  - Greater White-fronted Goose
+  - Cackling Goose
+  - Mute Swan
+  Loons:
+  - Common Loon
+  - Pacific Loon
+  - Red-throated Loon
+  Grebes:
+  - Eared Grebe
+  - Western Grebe
+  - Red-necked Grebe
+  - Pied-billed Grebe
+  - Horned Grebe
+  - Clark's Grebe
+  Storks:
+  - Wood Stork
+  Cormorants:
+  - Double-crested Cormorant
+  Egrets, Herons, Bitterns:
+  - Great Blue Heron
+  - Black-crowned Night-Heron
+  - American Bittern
+  - Great Egret
+  - Snowy Egret
+  - Cattle Egret
+  - Green Heron
+  - Little Blue Heron
+  - Least Bittern
+  - Yellow-crowned Night-Heron
+  Ibises:
+  - White-faced Ibis
+  - Glossy Ibis
+  Pelicans:
+  - American White Pelican
+  Avocets:
+  - American Avocet
+  - Black-necked Stilt
+  Cranes:
+  - Sandhill Crane
+  - Whooping Crane
+  Rails:
+  - American Coot
+  - Sora
+  - Virginia Rail
+  - Yellow Rail
+  - Common Gallinule
+  Gulls, Terns:
+  - Ring-billed Gull
+  - California Gull
+  - Franklin's Gull
+  - Black Tern
+  - Common Tern
+  - Least Tern
+  - Forster's Tern
+  - Caspian Tern
+  - Herring Gull
+  - Bonaparte's Gull
+  - Glaucous Gull
+  - Thayer's Gull
+  - Sabine's Gull
+  - Mew Gull
+  - Glaucous-winged Gull
+  - Lesser Black-backed Gull
+  - Arctic Tern
+  - Iceland Gull
+  - Black-legged Kittiwake
+  - Little Gull
+  - Great Black-backed Gull
+  - Laughing Gull
+  - Ross's Gull
+  Murrelets:
+  - Ancient Murrelet
+  Plovers:
+  - Killdeer
+  - Mountain Plover
+  - Piping Plover
+  - Semipalmated Plover
+  - Black-bellied Plover
+  - American Golden-Plover
+  - Snowy Plover
+  Sandpipers:
+  - Wilson's Snipe
+  - Long-billed Curlew
+  - Spotted Sandpiper
+  - Marbled Godwit
+  - Wilson's Phalarope
+  - Upland Sandpiper
+  - Willet
+  - Greater Yellowlegs
+  - Lesser Yellowlegs
+  - Long-billed Dowitcher
+  - Baird's Sandpiper
+  - Solitary Sandpiper
+  - Least Sandpiper
+  - Semipalmated Sandpiper
+  - Pectoral Sandpiper
+  - Sanderling
+  - Stilt Sandpiper
+  - Western Sandpiper
+  - Dunlin
+  - Short-billed Dowitcher
+  - Whimbrel
+  - White-rumped Sandpiper
+  - Ruddy Turnstone
+  - Red Knot
+  - Hudsonian Godwit
+  - Buff-breasted Sandpiper
+  - American Woodcock
+  - Black Turnstone
+  Kingfishers:
+  - Belted Kingfisher
+  Dippers:
+  - American Dipper
+Raptors:
+  Eagles:
+  - Bald Eagle
+  - Golden Eagle
+  Buteo:
+  - Red-tailed Hawk
+  - Rough-legged Hawk
+  - Ferruginous Hawk
+  - Swainson's Hawk
+  - Sharp-shinned Hawk
+  - Broad-winged Hawk
+  - Red-shouldered Hawk
+  Accipiter:
+  - Northern Harrier
+  - Northern Goshawk
+  - Cooper's Hawk
+  Kites:
+  - White-tailed Kite
+  - Mississippi Kite
+  Osprey:
+  - Osprey
+  Vultures:
+  - Turkey Vulture
+  Falcons:
+  - American Kestrel
+  - Prairie Falcon
+  - Peregrine Falcon
+  - Merlin
+  - Gyrfalcon
+  - Crested Caracara
+Owls & Nightjars:
+  Owls:
+  - Burrowing Owl
+  - Great Horned Owl
+  - Short-eared Owl
+  - Long-eared Owl
+  - Flammulated Owl
+  - Northern Pygmy-Owl
+  - Snowy Owl
+  - Northern Saw-whet Owl
+  - Great Gray Owl
+  - Barred Owl
+  - Boreal Owl
+  - Eastern Screech-Owl
+  - Western Screech-Owl
+  - Northern Hawk Owl
+  - Barn Owl
+  Nighthawks:
+  - Common Nighthawk
+  - Common Poorwill
+Hummingbirds:
+  Hummingbirds:
+  - Calliope Hummingbird
+  - Rufous Hummingbird
+  - Black-chinned Hummingbird
+  - Broad-tailed Hummingbird
+  - Ruby-throated Hummingbird
+  - Anna's Hummingbird
+  - Costa's Hummingbird
+Swifts:
+  Swifts:
+  - White-throated Swift
+  - Vaux's Swift
+  - Chimney Swift
+Game birds:
+  Game Birds:
+  - Greater Sage-Grouse
+  - Ring-necked Pheasant
+  - Ruffed Grouse
+  - Sharp-tailed Grouse
+  - Gray Partridge
+  - Wild Turkey
+  - Dusky Grouse
+  - Spruce Grouse
+  - White-tailed Ptarmigan
+  - Chukar
+  - Greater Prairie-Chicken
+  - Willow Ptarmigan
+Woodpeckers:
+  Woodpeckers:
+  - Northern Flicker
+  - Hairy Woodpecker
+  - Pileated Woodpecker
+  - Red-naped Sapsucker
+  - Downy Woodpecker
+  - American Three-toed Woodpecker
+  - Williamson's Sapsucker
+  - Black-backed Woodpecker
+  - Red-headed Woodpecker
+  - Lewis's Woodpecker
+  - Yellow-bellied Sapsucker
+  - White-headed Woodpecker
+  - Red-bellied Woodpecker
+Corvids, Jays, Blackbirds:
+  Corvids:
+  - Common Raven
+  - Black-billed Magpie
+  - Clark's Nutcracker
+  - American Crow
+  Jays:
+  - Gray Jay
+  - Steller's Jay
+  - Blue Jay
+  - Pinyon Jay
+  - Western Scrub-Jay
+  Blackbirds:
+  - Western Meadowlark
+  - Brown-headed Cowbird
+  - Red-winged Blackbird
+  - Brewer's Blackbird
+  - Yellow-headed Blackbird
+  - Common Grackle
+  - Bullock's Oriole
+  - Bobolink
+  - Baltimore Oriole
+  - Orchard Oriole
+  - Rusty Blackbird
+  - Great-tailed Grackle
+  - Eastern Meadowlark
+  - Hooded Oriole
+Song birds:
+  Creepers:
+  - Brown Creeper
+  Nuthatches:
+  - Red-breasted Nuthatch
+  - White-breasted Nuthatch
+  - Pygmy Nuthatch
+  Cuckoos:
+  - Black-billed Cuckoo
+  - Yellow-billed Cuckoo
+  Chickadees:
+  - Mountain Chickadee
+  - Black-capped Chickadee
+  - Chestnut-backed Chickadee
+  - Boreal Chickadee
+  Finches:
+  - Pine Siskin
+  - Red Crossbill
+  - American Goldfinch
+  - Evening Grosbeak
+  - House Finch
+  - Cassin's Finch
+  - Pine Grosbeak
+  - Common Redpoll
+  - Gray-crowned Rosy-Finch
+  - White-winged Crossbill
+  - Black Rosy-Finch
+  - Purple Finch
+  - Hoary Redpoll
+  - Lesser Goldfinch
+  Flycatchers:
+  - Dusky Flycatcher
+  - Eastern Kingbird
+  - Western Wood-Pewee
+  - Hammond's Flycatcher
+  - Western Kingbird
+  - Olive-sided Flycatcher
+  - Willow Flycatcher
+  - Least Flycatcher
+  - Say's Phoebe
+  - Cordilleran Flycatcher
+  - Cassin's Kingbird
+  - Alder Flycatcher
+  - Gray Flycatcher
+  - Yellow-bellied Flycatcher
+  - Eastern Phoebe
+  - Scissor-tailed Flycatcher
+  - Ash-throated Flycatcher
+  - Great Crested Flycatcher
+  - Eastern Wood-Pewee
+  - Vermilion Flycatcher
+  Gnatcatchers:
+  - Blue-gray Gnatcatcher
+  Kinglets:
+  - Ruby-crowned Kinglet
+  - Golden-crowned Kinglet
+  Larks:
+  - Horned Lark
+  Longspurs and Snow Buntings:
+  - Chestnut-collared Longspur
+  - McCown's Longspur
+  - Snow Bunting
+  - Lapland Longspur
+  - Smith's Longspur
+  Pipits:
+  - Sprague's Pipit
+  - American Pipit
+  Shrikes:
+  - Northern Shrike
+  - Loggerhead Shrike
+  Sparrows:
+  - House Sparrow
+  - Dark-eyed Junco
+  - Chipping Sparrow
+  - Vesper Sparrow
+  - Lark Bunting
+  - Song Sparrow
+  - Savannah Sparrow
+  - Spotted Towhee
+  - Grasshopper Sparrow
+  - Brewer's Sparrow
+  - Lark Sparrow
+  - White-crowned Sparrow
+  - Baird's Sparrow
+  - Lincoln's Sparrow
+  - Clay-colored Sparrow
+  - Fox Sparrow
+  - American Tree Sparrow
+  - Field Sparrow
+  - Green-tailed Towhee
+  - Harris's Sparrow
+  - White-throated Sparrow
+  - Le Conte's Sparrow
+  - Nelson's Sparrow
+  - Swamp Sparrow
+  - Golden-crowned Sparrow
+  - Black-throated Sparrow
+  - Eastern Towhee
+  - Sage Sparrow
+  Starlings:
+  - European Starling
+  Swallows:
+  - Tree Swallow
+  - Barn Swallow
+  - Cliff Swallow
+  - Violet-green Swallow
+  - Northern Rough-winged Swallow
+  - Bank Swallow
+  - Purple Martin
+  Tanagers / Cardinals / Buntings:
+  - Western Tanager
+  - Lazuli Bunting
+  - Black-headed Grosbeak
+  - Rose-breasted Grosbeak
+  - Dickcissel
+  - Indigo Bunting
+  - Scarlet Tanager
+  - Northern Cardinal
+  - Blue Grosbeak
+  - Summer Tanager
+  - Painted Bunting
+  - Pyrrhuloxia
+  Thrashers / Mockingbirds / Catbirds:
+  - Gray Catbird
+  - Brown Thrasher
+  - Sage Thrasher
+  - Northern Mockingbird
+  - Curve-billed Thrasher
+  Thrushes:
+  - American Robin
+  - Swainson's Thrush
+  - Townsend's Solitaire
+  - Mountain Bluebird
+  - Hermit Thrush
+  - Varied Thrush
+  - Veery
+  - Western Bluebird
+  - Eastern Bluebird
+  - Gray-cheeked Thrush
+  - Wood Thrush
+  Vireos:
+  - Warbling Vireo
+  - Cassin's Vireo
+  - Red-eyed Vireo
+  - Plumbeous Vireo
+  - Philadelphia Vireo
+  - Blue-headed Vireo
+  - Yellow-throated Vireo
+  - White-eyed Vireo
+  Warblers:
+  - Yellow-rumped Warbler
+  - Yellow Warbler
+  - Townsend's Warbler
+  - MacGillivray's Warbler
+  - Common Yellowthroat
+  - Orange-crowned Warbler
+  - Wilson's Warbler
+  - Northern Waterthrush
+  - American Redstart
+  - Yellow-breasted Chat
+  - Ovenbird
+  - Nashville Warbler
+  - Tennessee Warbler
+  - Black-and-White Warbler
+  - Blackpoll Warbler
+  - Mourning Warbler
+  - Magnolia Warbler
+  - Canada Warbler
+  - Palm Warbler
+  - Chestnut-sided Warbler
+  - Cape May Warbler
+  - Black-throated Green Warbler
+  - Black-throated Blue Warbler
+  - Blackburnian Warbler
+  - Northern Parula
+  - Bay-breasted Warbler
+  - Black-throated Gray Warbler
+  - Connecticut Warbler
+  - Blue-winged Warbler
+  - Pine Warbler
+  - Hooded Warbler
+  - Prairie Warbler
+  - Golden-winged Warbler
+  - Yellow-throated Warbler
+  - Prothonotary Warbler
+  - Kentucky Warbler
+  - Painted Redstart
+  Waxwings:
+  - Cedar Waxwing
+  - Bohemian Waxwing
+  Wrens:
+  - House Wren
+  - Rock Wren
+  - Pacific Wren
+  - Marsh Wren
+  - Canyon Wren
+  - Sedge Wren
+  - Bewick's Wren
+  - Winter Wren
+  - Carolina Wren
+Pigeons, Doves:
+  Pigeon / Doves:
+  - Mourning Dove
+  - Rock Pigeon
+  - Eurasian Collared-Dove
+  - Band-tailed Pigeon
+  - White-winged Dove
+  - Inca Dove

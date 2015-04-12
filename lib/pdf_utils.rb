@@ -39,27 +39,32 @@ module BirdChecklist
 
           current_family = nil
 
-          MajorGroupings.keys.each do |group|
+          ChecklistSort.each_pair do |major_group, minor_groups|
 
-            group_birds = @checklist.select{|b| b.major_group == group}
-            rare_birds = group_birds.select{|b| b.accidental? || b.num_observations.to_i < 100}
-            non_rare_birds = group_birds - rare_birds
+            group_common_names = minor_groups.values.flatten
+            group_birds = group_common_names.map{|n| @checklist.find{|b| b['common_name'] == n}}
+            group_rare_birds = group_birds.select{|b| b and (b.accidental? || b.num_observations.to_i < 100)}
+            non_rare_birds = group_birds - group_rare_birds
+            next unless non_rare_birds.length > 1
 
-            write_major_group non_rare_birds[0].major_group if non_rare_birds.length > 1
+            write_major_group major_group
 
-            non_rare_birds.each do |bird|
+            minor_groups.each_pair do |minor_group, common_names|
 
-              if bird.family != current_family and
-                MajorGroupings[bird.major_group].length > 1
-                write_family bird.family
-                current_family = bird.family
+              group_birds = common_names.map{|n| @checklist.find{|b| b['common_name'] == n}}
+              rare_birds = group_birds.select{|b| b and (b.accidental? || b.num_observations.to_i < 100)}
+              non_rare_birds = group_birds - rare_birds
+              next unless non_rare_birds.length > 1
+
+              write_family minor_group if ChecklistSort[major_group].keys.length > 1
+
+              non_rare_birds.each do |bird|
+                write_bird bird if bird
               end
-
-              write_bird bird
             end
 
-            if rare_birds.length > 0
-              write_rarities rare_birds
+            if group_rare_birds.length > 0
+              write_rarities group_rare_birds
             end
           end
 
@@ -111,6 +116,7 @@ module BirdChecklist
       end
 
       def write_bird bird
+
         write_block do
           @pdf.transparent(0.4) do
             @pdf.line @pdf.bounds.top_right, @pdf.bounds.top_left

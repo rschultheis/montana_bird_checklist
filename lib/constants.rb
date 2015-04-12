@@ -16,6 +16,7 @@ module BirdChecklist
     FamilyDescriptionsConfig = File.join(DataDir, 'family_descriptions.yml')
     ElCodeMappingConfig = File.join(DataDir, 'elcode_mapping.yml')
     MajorGroupingConfig = File.join(DataDir, 'major_groupings.yml')
+    ChecklistSortConfig = File.join(DataDir, 'checklist_sort.yml')
 
     FullDataOutputCSV = File.join(OutputDir, 'Montana_bird_checklist.csv')
     ExcelOutput = File.join(OutputDir, 'Montana_bird_checklist.xlsx')
@@ -48,6 +49,7 @@ module BirdChecklist
     FamilyDescriptions = YAML.load_file Locations::FamilyDescriptionsConfig
     CommonNameToElCode = YAML.load_file Locations::ElCodeMappingConfig
     MajorGroupings = YAML.load_file Locations::MajorGroupingConfig
+    ChecklistSort = YAML.load_file Locations::ChecklistSortConfig
   end
 
 end

@@ -8,13 +8,14 @@ module BirdChecklist
     include Locations
 
     def get_bird_images  bird
-      q = "bird \"#{bird}\""
+      q = "#{bird.genus} #{bird.species}"
+      puts "Image searching for: #{q}"
       results = Google::Search::Image.new(query: q, image_size: :small).all
       if results.length < 1
         return []
       end
 
-      bird_image_dir = File.join(ImageCacheDir, bird)
+      bird_image_dir = File.join(ImageCacheDir, bird.slug)
       FileUtils.mkdir_p bird_image_dir
       html_file = File.join(bird_image_dir, 'images.html')
       File.open(html_file, 'w') do |f|
@@ -36,5 +37,10 @@ end
 # testing...
 if __FILE__==$0
   include BirdChecklist::ImageUtils
-  get_bird_images 'Redhead'
+  require_relative '../lib/csv_utils'
+  include BirdChecklist::CsvUtils
+  birds = get_raw_data(FullDataOutputCSV)
+  birds.shuffle!
+
+  get_bird_images birds[0]
 end
