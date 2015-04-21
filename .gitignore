@@ -3,4 +3,5 @@ html_page_cache
 output/test.*
 image_cache
 assets/observation_charts
+assets/observation_maps
 assets_bkup.tgz
