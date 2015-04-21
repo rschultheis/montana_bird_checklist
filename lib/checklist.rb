@@ -15,6 +15,7 @@ module BirdChecklist
 
     def initialize birds=[]
       @birds = birds
+      @birds.delete_if{|b| b.nil? }
     end
 
     def each &block

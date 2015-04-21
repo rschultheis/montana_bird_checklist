@@ -43,6 +43,11 @@ module BirdChecklist
     def accidental?
       self['accidental'] == 'X'
     end
+    alias :accidental :accidental?
+
+    def very_rare?
+      self['num_observations'] and self['num_observations'].to_i < 100
+    end
 
     def aab_url
       self['aab_url'] ||= make_aab_url self['common_name']
