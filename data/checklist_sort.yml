@@ -162,7 +162,6 @@ Raptors:
   - Broad-winged Hawk
   - Red-shouldered Hawk
   Accipiter:
-  - Northern Harrier
   - Northern Goshawk
   - Cooper's Hawk
   Kites:
@@ -179,6 +178,8 @@ Raptors:
   - Merlin
   - Gyrfalcon
   - Crested Caracara
+  Harrier:
+  - Northern Harrier
 Owls & Nightjars:
   Owls:
   - Burrowing Owl
@@ -254,7 +255,7 @@ Corvids, Jays, Blackbirds:
   - Blue Jay
   - Pinyon Jay
   - Western Scrub-Jay
-  Blackbirds:
+  Icterids:
   - Western Meadowlark
   - Brown-headed Cowbird
   - Red-winged Blackbird
@@ -270,35 +271,6 @@ Corvids, Jays, Blackbirds:
   - Eastern Meadowlark
   - Hooded Oriole
 Song birds:
-  Creepers:
-  - Brown Creeper
-  Nuthatches:
-  - Red-breasted Nuthatch
-  - White-breasted Nuthatch
-  - Pygmy Nuthatch
-  Cuckoos:
-  - Black-billed Cuckoo
-  - Yellow-billed Cuckoo
-  Chickadees:
-  - Mountain Chickadee
-  - Black-capped Chickadee
-  - Chestnut-backed Chickadee
-  - Boreal Chickadee
-  Finches:
-  - Pine Siskin
-  - Red Crossbill
-  - American Goldfinch
-  - Evening Grosbeak
-  - House Finch
-  - Cassin's Finch
-  - Pine Grosbeak
-  - Common Redpoll
-  - Gray-crowned Rosy-Finch
-  - White-winged Crossbill
-  - Black Rosy-Finch
-  - Purple Finch
-  - Hoary Redpoll
-  - Lesser Goldfinch
   Flycatchers:
   - Dusky Flycatcher
   - Eastern Kingbird
@@ -320,56 +292,20 @@ Song birds:
   - Great Crested Flycatcher
   - Eastern Wood-Pewee
   - Vermilion Flycatcher
-  Gnatcatchers:
-  - Blue-gray Gnatcatcher
-  Kinglets:
-  - Ruby-crowned Kinglet
-  - Golden-crowned Kinglet
-  Larks:
-  - Horned Lark
-  Longspurs and Snow Buntings:
-  - Chestnut-collared Longspur
-  - McCown's Longspur
-  - Snow Bunting
-  - Lapland Longspur
-  - Smith's Longspur
-  Pipits:
-  - Sprague's Pipit
-  - American Pipit
   Shrikes:
   - Northern Shrike
   - Loggerhead Shrike
-  Sparrows:
-  - House Sparrow
-  - Dark-eyed Junco
-  - Chipping Sparrow
-  - Vesper Sparrow
-  - Lark Bunting
-  - Song Sparrow
-  - Savannah Sparrow
-  - Spotted Towhee
-  - Grasshopper Sparrow
-  - Brewer's Sparrow
-  - Lark Sparrow
-  - White-crowned Sparrow
-  - Baird's Sparrow
-  - Lincoln's Sparrow
-  - Clay-colored Sparrow
-  - Fox Sparrow
-  - American Tree Sparrow
-  - Field Sparrow
-  - Green-tailed Towhee
-  - Harris's Sparrow
-  - White-throated Sparrow
-  - Le Conte's Sparrow
-  - Nelson's Sparrow
-  - Swamp Sparrow
-  - Golden-crowned Sparrow
-  - Black-throated Sparrow
-  - Eastern Towhee
-  - Sage Sparrow
-  Starlings:
-  - European Starling
+  Vireos:
+  - Warbling Vireo
+  - Cassin's Vireo
+  - Red-eyed Vireo
+  - Plumbeous Vireo
+  - Philadelphia Vireo
+  - Blue-headed Vireo
+  - Yellow-throated Vireo
+  - White-eyed Vireo
+  Larks:
+  - Horned Lark
   Swallows:
   - Tree Swallow
   - Barn Swallow
@@ -378,25 +314,32 @@ Song birds:
   - Northern Rough-winged Swallow
   - Bank Swallow
   - Purple Martin
-  Tanagers / Cardinals / Buntings:
-  - Western Tanager
-  - Lazuli Bunting
-  - Black-headed Grosbeak
-  - Rose-breasted Grosbeak
-  - Dickcissel
-  - Indigo Bunting
-  - Scarlet Tanager
-  - Northern Cardinal
-  - Blue Grosbeak
-  - Summer Tanager
-  - Painted Bunting
-  - Pyrrhuloxia
-  Thrashers / Mockingbirds / Catbirds:
-  - Gray Catbird
-  - Brown Thrasher
-  - Sage Thrasher
-  - Northern Mockingbird
-  - Curve-billed Thrasher
+  Chickadees:
+  - Black-capped Chickadee
+  - Mountain Chickadee
+  - Chestnut-backed Chickadee
+  - Boreal Chickadee
+  Nuthatches:
+  - Red-breasted Nuthatch
+  - White-breasted Nuthatch
+  - Pygmy Nuthatch
+  Creepers:
+  - Brown Creeper
+  Wrens:
+  - House Wren
+  - Rock Wren
+  - Pacific Wren
+  - Marsh Wren
+  - Canyon Wren
+  - Sedge Wren
+  - Bewick's Wren
+  - Winter Wren
+  - Carolina Wren
+  Kinglets:
+  - Ruby-crowned Kinglet
+  - Golden-crowned Kinglet
+  Gnatcatchers:
+  - Blue-gray Gnatcatcher
   Thrushes:
   - American Robin
   - Swainson's Thrush
@@ -409,15 +352,24 @@ Song birds:
   - Eastern Bluebird
   - Gray-cheeked Thrush
   - Wood Thrush
-  Vireos:
-  - Warbling Vireo
-  - Cassin's Vireo
-  - Red-eyed Vireo
-  - Plumbeous Vireo
-  - Philadelphia Vireo
-  - Blue-headed Vireo
-  - Yellow-throated Vireo
-  - White-eyed Vireo
+  Thrashers / Mockingbirds / Catbirds:
+  - Gray Catbird
+  - Brown Thrasher
+  - Sage Thrasher
+  - Northern Mockingbird
+  - Curve-billed Thrasher
+  Pipits:
+  - Sprague's Pipit
+  - American Pipit
+  Waxwings:
+  - Cedar Waxwing
+  - Bohemian Waxwing
+  Longspurs and Snow Buntings:
+  - Chestnut-collared Longspur
+  - McCown's Longspur
+  - Snow Bunting
+  - Lapland Longspur
+  - Smith's Longspur
   Warblers:
   - Yellow-rumped Warbler
   - Yellow Warbler
@@ -456,19 +408,70 @@ Song birds:
   - Prothonotary Warbler
   - Kentucky Warbler
   - Painted Redstart
-  Waxwings:
-  - Cedar Waxwing
-  - Bohemian Waxwing
-  Wrens:
-  - House Wren
-  - Rock Wren
-  - Pacific Wren
-  - Marsh Wren
-  - Canyon Wren
-  - Sedge Wren
-  - Bewick's Wren
-  - Winter Wren
-  - Carolina Wren
+  Cuckoos:
+  - Black-billed Cuckoo
+  - Yellow-billed Cuckoo
+  Finches:
+  - Pine Siskin
+  - Red Crossbill
+  - American Goldfinch
+  - Evening Grosbeak
+  - House Finch
+  - Cassin's Finch
+  - Pine Grosbeak
+  - Common Redpoll
+  - Gray-crowned Rosy-Finch
+  - White-winged Crossbill
+  - Black Rosy-Finch
+  - Purple Finch
+  - Hoary Redpoll
+  - Lesser Goldfinch
+  Towhees:
+  - Spotted Towhee
+  - Green-tailed Towhee
+  - Eastern Towhee
+  Sparrows:
+  - House Sparrow
+  - Dark-eyed Junco
+  - Chipping Sparrow
+  - Vesper Sparrow
+  - Lark Bunting
+  - Song Sparrow
+  - Savannah Sparrow
+  - Grasshopper Sparrow
+  - Brewer's Sparrow
+  - Lark Sparrow
+  - White-crowned Sparrow
+  - Baird's Sparrow
+  - Lincoln's Sparrow
+  - Clay-colored Sparrow
+  - Fox Sparrow
+  - American Tree Sparrow
+  - Field Sparrow
+  - Harris's Sparrow
+  - White-throated Sparrow
+  - Le Conte's Sparrow
+  - Nelson's Sparrow
+  - Swamp Sparrow
+  - Golden-crowned Sparrow
+  - Black-throated Sparrow
+  - Sage Sparrow
+  Tanagers / Buntings / Allies:
+  - Western Tanager
+  - Lazuli Bunting
+  - Black-headed Grosbeak
+  - Rose-breasted Grosbeak
+  - Dickcissel
+  - Indigo Bunting
+  - Scarlet Tanager
+  - Northern Cardinal
+  - Blue Grosbeak
+  - Summer Tanager
+  - Painted Bunting
+  - Pyrrhuloxia
+Starlings:
+  Starlings:
+  - European Starling
 Pigeons, Doves:
   Pigeon / Doves:
   - Mourning Dove

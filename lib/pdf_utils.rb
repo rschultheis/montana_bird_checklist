@@ -53,7 +53,6 @@ module BirdChecklist
               group_birds = common_names.map{|n| @checklist.find{|b| b['common_name'] == n}}
               rare_birds = group_birds.select{|b| b.very_rare? }
               non_rare_birds = (group_birds - rare_birds).select{|b| !b.nil? }
-              next unless non_rare_birds.length > 1
 
               write_family minor_group if ChecklistSort[major_group].keys.length > 1
 
@@ -105,13 +104,14 @@ module BirdChecklist
         @pdf.image 'cover/MT_Bird_Checklist_Cover.png', position: 0, height: @pdf.bounds.height, width: @pdf.bounds.width
         new_page
         @pdf.text "This is where usage instructions will go"
+        new_page
       end
 
       def write_major_group group
-        new_page
+        new_page if @cur_y < (@page_height * 0.50)
 
         write_block :heading do
-          @pdf.pad_top(8) do
+          @pdf.pad_top(20) do
             @pdf.transparent(0.9) do
               @pdf.line @pdf.bounds.top_right, @pdf.bounds.top_left
             end
@@ -136,6 +136,8 @@ module BirdChecklist
       end
 
       def write_bird bird
+
+        puts "BIRD: #{bird['common_name']}"
 
         @pdf.pad_top(5) do
           @pdf.text bird.common_name, :align => :center, :size => 12
@@ -178,7 +180,9 @@ module BirdChecklist
       end
 
       def write_rarities group, birds
-        rheight = (((birds.length / 3) + 1) * 20) + 36
+        bird_rows = birds.length / 3
+        bird_rows += 1 if birds.length % 3 > 0
+        rheight = (bird_rows * 20) + 36
         cur_ry = rheight - 36
         write_block :rareties, rheight do
           @pdf.stroke_bounds
