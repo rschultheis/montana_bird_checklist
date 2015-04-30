@@ -28,8 +28,8 @@ module BirdChecklist
       self['breeding_verified'] == 'X'
     end
 
-    def breeding_unverified?
-      self['breeding_unverified'] == 'X'
+    def breeding_indirect?
+      self['breeding_indirect'] == 'X'
     end
 
     def breeding?

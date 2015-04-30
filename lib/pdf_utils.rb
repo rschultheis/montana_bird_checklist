@@ -15,7 +15,7 @@ module BirdChecklist
       'winter_verified' => 0,
       'winter_unverified' => 0,
       'breeding_verified' => 1,
-      'breeding_unverified' => 1,
+      'breeding_indirect' => 1,
       'accidental' => 1,
       'transient' => 2,
     }
@@ -103,7 +103,7 @@ module BirdChecklist
       def write_title_page
         @pdf.image 'cover/MT_Bird_Checklist_Cover.png', position: 0, height: @pdf.bounds.height, width: @pdf.bounds.width
         new_page
-        @pdf.text "This is where usage instructions will go"
+        @pdf.image 'cover/Usage.png', position: 0, height: @pdf.bounds.height, width: @pdf.bounds.width
         new_page
       end
 
@@ -149,7 +149,7 @@ module BirdChecklist
           Icons.each_pair do |icon_key, offset|
             if bird.send("#{icon_key}?")
               @pdf.bounding_box([offset * IconWidth, IconHeight], height: IconHeight, width: IconWidth) do
-                if icon_key =~ /unverified/
+                if icon_key =~ /unverified|indirect/
                   @pdf.transparent(0.5) { @pdf.image File.join(IconDir, "#{icon_key}.png"), position: 0, height: IconHeight }
                 else
                   @pdf.image File.join(IconDir, "#{icon_key}.png"), position: 0, height: IconHeight
